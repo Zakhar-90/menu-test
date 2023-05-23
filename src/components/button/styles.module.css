@@ -1,0 +1,18 @@
+.button {
+  padding: 0;
+  
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 5px;
+  border-radius: 15%;
+  border-width: 0;
+  cursor: pointer;
+  
+  color: #1c1c1c;
+  background-color: #d4d4d4;
+  transition: color 0.2s ease-out, background-color 0.2s ease-out, opacity 0.2s ease-out;
+  touch-action: manipulation;
+}
